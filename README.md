@@ -23,7 +23,7 @@ Then run `python start.py` and finally you can get your target blog on `blog` fo
 
 If you run `python httpsever.py` in `blog` folder you will get something like this.
 
-![demo1](http://7d9re0.com1.z0.glb.clouddn.com/QQ20150611-2@1x.png)
+![demo1](http://7d9re0.com1.z0.glb.clouddn.com/QQ20150611-1@2x.png)
 
 ![demo2](http://7d9re0.com1.z0.glb.clouddn.com/QQ20150611-2@2x.png)
 
