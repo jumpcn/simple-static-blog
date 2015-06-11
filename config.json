@@ -1,0 +1,14 @@
+{
+	"BlogName": "ofpsxx",
+	"Author": "ofpsxx",
+	"post_folder": "./posts",
+	"pageCount": "20",
+	"targetFolder": "./blog",
+	"targetPostURL": "/post",
+    "targetPageFolder": "/page",
+    "targetCSSFolder": "/stylesheets",
+    "templateCSSFolder": "./template/stylesheets",
+	"templatePost": "./template/post.html",
+    "templatePage": "./template/page.html",
+    "httpServerPath": "./template/httpserver.py"
+}

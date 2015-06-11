@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<title>Blog</title>
+<link rel="stylesheet" href="../../../stylesheets/style.css"/>
+</head>
+
+<body>
+<header>
+<h1>{{Title}}</h1>
+</header>
+<nav>
+<span><a title="主页" href="./">home</a></span>
+</nav>
+
+<article>
+    <ul>
+    {%for l in article_list %}
+    <li><a href="{{l['url']}}">{{l['title']}}</a></li>
+    {% endfor %}
+    </ul>
+</article>
+<br />
+<div>
+{% if Pre %}
+<span class="prePage"><a title="上一页" href="{{prePageURL}}">上一页</a></span>
+{% endif %}
+{% if Next %}
+<span class="nextPage"><a title="下一页" href="{{nextPageURL}}">下一页</a></span>
+{% endif %}
+
+</div>
+</body>
+</html>
